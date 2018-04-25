@@ -1,0 +1,21 @@
+﻿@model List<Modular.Module.ModuleA.ViewModels.SampleViewModel>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Sample</title>
+</head>
+<body>
+    <ul>
+        @foreach (var sample in Model)
+        {
+            <li>
+                @sample.Id - @sample.Name - @sample.Description
+            </li>
+        }
+
+    </ul>
+
+</body>
+</html>
