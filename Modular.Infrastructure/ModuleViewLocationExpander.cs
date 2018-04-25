@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 using Microsoft.AspNetCore.Mvc.Razor;
 
-namespace Modular.WebHost.Extensions
+namespace Modular.Infrastructure
 {
     public class ModuleViewLocationExpander : IViewLocationExpander
     {

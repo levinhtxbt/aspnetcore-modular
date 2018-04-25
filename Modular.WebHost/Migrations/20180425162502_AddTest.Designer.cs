@@ -11,9 +11,10 @@ using System;
 namespace Modular.WebHost.Migrations
 {
     [DbContext(typeof(ModularDbContext))]
-    partial class ModularDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180425162502_AddTest")]
+    partial class AddTest
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

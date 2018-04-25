@@ -27,7 +27,15 @@ namespace Modular.Module.Core.Infrastructure
 
         public void SaveChange()
         {
-            Context.SaveChanges();
+            try
+            {
+                Context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+            }
+
         }
 
         public IQueryable<T> Query()
